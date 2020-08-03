@@ -1,0 +1,59 @@
+﻿Aim 
+
+The aim of JumpIntoAuslan is simple - to create the best and most comprehensive learning tool for Auslan fingerspelling. The outcome will result in this app being implemented in special schools across the country, with the option for the general public to access the learning materials also. The backbone of the app will be the ability to read user text uploads, and output the readings as strung together fingerspelling sign language. There are several key performance indicators that must be met along the way to ensure the project gets off the ground. These include studying the competition, designing the aesthetic and user experience, recording the sign movements, creating the 3d model, coding the app, deploying a beta, deploying release candidates, and then finally, improving and expanding the stable app. 
+
+
+
+Studying the competition
+
+This stage is the lift off point for JumpIntoAuslan. This goal, once completed, will enable the development team to identify each aspect that the competition does and does not do well. The findings from this stage of the project will solidify the distinctions between JumpIntoAuslan and the rest, which can be built upon to create an end product that is useful, intuitive and practical to the end user. The team will adopt the aspects which the competition does well and expand the aspects that set JumpIntoAuslan apart. This is where the features and benefits of our project will be realised, which will aid in everything from development to marketing. 
+
+
+Designing the aesthetic and U/X
+
+
+This stage of the project will produce the wireframe which the rest of the app will be built upon. It will focus on the user experience and the user interface, producing a mockup of the real app, which can be viewed on the user device.The tools which will be used to produce the wireframe is Adobe XD. This stage is critical as it realises what the end application will look like and how the app behaves and feels.This then provides an end goal for the app engineers to build towards. 
+
+
+Recording the SignMovements
+
+
+This stage is information gathering. The “content” of the project is the 3d modelling of Auslan fingerspelling signs , so we need to create a bank of the signs that can be accessed when creating the 3d model. A simple recording of the hands as the signs are performed is all that is needed. 
+
+
+
+
+
+
+
+
+
+
+
+
+Creating the 3D model
+
+
+This step will take what is recorded from the Recording step, and then digitise and animate the recordings, so they can be shown on the app. The reason why it will be a 3d model instead of strung together real life recordings, is that one of the shortfalls identified in the competitor research is that in using prerecorded signs, the transition from one sign to another is lost, and therefore the lifelike training and realism is also lost. This step will be performed in the open source 3d creation environment , Blender (specificallly Blender v2.83.3) and then exported to the game engine Unity for rendering.
+
+
+
+
+Coding the app
+This step involves taking the wireframe that was created and building a functional app around it.  The core function of reading user uploaded text files and outputting as the 3d rendering would be coded in this step. Without this step there is no project.
+
+
+
+
+Deploying a beta and deploying release candidates. 
+
+
+These two steps have been combined, as they perform nearly the same function - deploying the app into the real world, and working on eradicating bugs that pop up - just on different scales. The beta will be deployed to a select number of testers - designed to find any bugs that are unknown to the developers. The developer will then work on the bugs to produce a more polished version. Once the development team agrees that there will be no new code to be implemented - only code to work on - the project will enter the release candidate stage. This stage will have all features and functions ready to deploy, with no known critical bugs, while most of the work will be done to improving periphery source code. 
+
+
+
+
+Improving and expanding stable app.
+
+
+Once the release candidate is finalised and released, ongoing support to the app would be provided. One key aspect is improvement of the 3d rendering. If proven successful and uptake of the app is as expected, research and redevelopment of the 3d model will be undertaken. This will be in the software ZTouch, which can provide life like modelling to further aid in the realism of the app. Another way that has been ear marked as a potential future feature to improve the app would be expansion from fingerspelling to whole words, and from Auslan (Australian Sign Language) to other Sign languages such as ASL (American Sign Language) .
