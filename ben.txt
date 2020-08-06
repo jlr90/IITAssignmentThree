@@ -1,0 +1,87 @@
+Ben's notes for gitHub papertrail:
+
+Functionality for the app:
+
+
+Uploading/storing or accessing (via the cloud) text files
+
+Reading from a text file
+
+Creating dynamic 3d animations between preset hand/arm gestures/postures (representing letters of the alphabet) to fingerspell words or phrases based on the text read in a file.
+
+Animation Speed settings (speed up / slow down)
+
+Categorisation of difficulty of words/phrases. The app has or accesses a language analysis tool which determines the commonality of words, the difficulty of their spelling, and their length.  This could also include categories like ‘slang’ phrases, jargon or other styles of writing (eg Shakespearian).
+
+Difficulty Slider - this changes the speed of the fingerspelling animation, reduces the number of times you can playback the same word or phrase before having to check the answer, and may include increasingly complex or long words/phrases to interpret.
+
+Cloud-Based Profile Info (private) that stores information of your preferences (like difficulty), how much time spent on fingerspelling, accuracy ratings over a time period (and progress through difficulty levels).
+
+Login integration with social media (Google/Facebook/etc)
+
+Voice recognition integration: Say a word into it, the app analyses the sound, converts it to text, and from there ‘reads’ the text as per its usual process, and dynamically creates the fingerspelling animation for the words/phrase.
+
+
+---
+
+Aim of our project:
+
+The end goal:
+
+What we propose for the timeframe of this project:
+-Pre-Alpha version of the app including
+-3D Model wireframe, with a few fingerspelled gestures 
+-GUI for the app
+
+	Plans and Progress:
+
+GS Tech member Ben Matthews took up basic AUSLAN lessons in 2019. Upon wishing to develop his skills beyond the allotted class times, he sought to find relevant educational tools, only to find that there were none.
+
+Since then, a tool has been developed for this task, but it is bad for <these reasons>
+
+GS Technologies saw an opportunity to develop this educational tool beyond the current competition, to benefit not only the hard of hearing and deaf communities in AUS/NZ, but also to assist any who are interested in learning the language.
+
+Dead Ends Followed include…
+
+Decisions made and changes made include…
+
+Roles include:
+These roles were assigned based on skill sets, experience, and interest of each member:
+
+Admin Assistant
+Researcher
+Web Developer
+UI/UX Designer
+3D Modeller
+
+	Scope and Limits:
+
+What we propose for the timeframe of this project:
+-Pre-Alpha version of the app including
+-3D Model wireframe, with a few fingerspelled gestures 
+-GUI for the app
+
+
+	Tools and Technologies
+Which software/licenses/hardware are needed?
+3d Modelling software
+Adobe XD
+InVision
+
+Any prior experience from group members with these?
+
+
+	Testing
+How can we test our project? Putting it onto different devices/phones? Putting it in a website?
+
+What defines ‘success’ for our project (or this portion of it)? This would surely be ‘achieving our scoped/limited aim’
+
+Timeframe
+Within the first six weeks, we would like to have:
+ -Pre-Alpha version of the app including
+-3D Model wireframe, with a few fingerspelled gestures 
+-GUI for the app
+
+Within the remaining timeframe of the project (an additional 10 weeks), we would like to have a completed app, with demo and promo materials available to offer to potential clients (educational bodies).
+
+
