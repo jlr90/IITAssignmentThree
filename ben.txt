@@ -1,5 +1,25 @@
 Ben's notes for gitHub papertrail:
 
+
+Update 8-8-2020
+
+	Plans and Progress:
+
+Passionate about communication and considering a career change at the time, GS Technologies member Ben Matthews undertook an introductory Australian Sign Language (Auslan) course through Western Australian organisation Access Plus WA Deaf in mid 2019 .<ref: https://accessplus.org.au/auslan-classes/> A challenge was identified while navigating the course. It is relatively easy to learn to finger spell the alphabet (and from there, any other word), and there are many available educational resources to teach this. <ref: auslan resources x2 or 3> However, while fingerspelling to others becomes easy enough to practice independently of another person, interpreting the fast-paced fingerspelling from a fluent signer is very difficult practice without assistance.  The educational resources that are currently available for bettering one’s ability to interpret fingerspelling are sorely limited and somewhat basic when compared to modern app technologies. <ref: current competition><ref: what apps can now do>
+
+Matthews believes that such a resource could greatly benefit the Australian and New Zealand deaf communities, aspiring Auslan interpreters, and anyone who has an interest in learning Auslan.<ref: Auslan and NZ Sign language is similar>  GS Technologies saw the opportunity to develop a new educational app that could quickly surpass the current competition in terms of educational effectiveness, usability and marketability, to assist inspired Auslan students by allowing them to practice fingerspelling interpretation independently of others.
+
+	Where we are at in the life cycle of this app:
+
+Dead Ends Followed include…
+
+Decisions made and changes made include…
+
+Software decisions
+Developmental restrictions within the time frame - What are they and why did we decide them?
+
+--
+
 Functionality for the app:
 
 
