@@ -1,22 +1,29 @@
 Ben's notes for gitHub papertrail:
 
 
-Update 8-8-2020
+	update 10/8/2020
 
-	Plans and Progress:
+Plans and Progress:
 
-Passionate about communication and considering a career change at the time, GS Technologies member Ben Matthews undertook an introductory Australian Sign Language (Auslan) course through Western Australian organisation Access Plus WA Deaf in mid 2019 .<ref: https://accessplus.org.au/auslan-classes/> A challenge was identified while navigating the course. It is relatively easy to learn to finger spell the alphabet (and from there, any other word), and there are many available educational resources to teach this. <ref: auslan resources x2 or 3> However, while fingerspelling to others becomes easy enough to practice independently of another person, interpreting the fast-paced fingerspelling from a fluent signer is very difficult practice without assistance.  The educational resources that are currently available for bettering one’s ability to interpret fingerspelling are sorely limited and somewhat basic when compared to modern app technologies. <ref: current competition><ref: what apps can now do>
+The Story:
 
-Matthews believes that such a resource could greatly benefit the Australian and New Zealand deaf communities, aspiring Auslan interpreters, and anyone who has an interest in learning Auslan.<ref: Auslan and NZ Sign language is similar>  GS Technologies saw the opportunity to develop a new educational app that could quickly surpass the current competition in terms of educational effectiveness, usability and marketability, to assist inspired Auslan students by allowing them to practice fingerspelling interpretation independently of others.
+Passionate about communication and considering a career change at the time, GS Technologies member Ben Matthews undertook an introductory Australian Sign Language (Auslan) course through Western Australian organisation Access Plus WA Deaf in mid 2019 .<ref: https://accessplus.org.au/auslan-classes/> A challenge was identified while learning the language. It is relatively easy to learn to finger spell the alphabet (and from there, any other word), and there are many available educational resources to teach the gestures for each letter. <ref: auslan resources x2 or 3> However, while learning to fingerspell is easy to practice independently of another person, interpreting the fast-paced fingerspelling from a fluent signer is very difficult to practice without assistance.  The educational resources that are currently available for bettering one’s ability to interpret fingerspelling are sorely limited and somewhat basic when compared to modern app technologies. <ref: current competition><ref: what apps can now do>
 
-	Where we are at in the life cycle of this app:
+Matthews believes that a new resource could be developed to greatly benefit the Australian and New Zealand deaf communities, aspiring Auslan interpreters, and anyone who has an interest in learning Auslan.<ref: Auslan and NZ Sign language is similar>  GS Technologies saw the opportunity to develop a new educational app that could quickly surpass the current competition in terms of educational effectiveness, usability and marketability, that could assist inspired Auslan students by allowing them to practice fingerspelling interpretation independently.
 
-Dead Ends Followed include…
+Where we are at in the life cycle of this app:
 
-Decisions made and changes made include…
+Short, mid-term and to a lesser extent, long term goals have been defined by the GS Technologies team for the development of the JumpIntoAuslan app.  Desired functionality has been listed and detailed <in ‘that’ section>, which outlines mid-term and longer term aims.  In brevity, the mid-term goal is the creation and release of a fully functioning app that is both accessible as a standalone app to be downloaded onto devices, or via web browser. The app would serve its purposes as described in <’that’ section’>, and would be delivered as per the marketing and release plan (yet to be created) for the app. <ref: releasing an app - marketing plan>
 
-Software decisions
-Developmental restrictions within the time frame - What are they and why did we decide them?
+The long-term goal would be to include functionality that is not essential for providing the intended apps purpose to users, but would be desirable, interesting or entertaining for the user, along with any updates required to address unexpected issues with the product.  Pending a successful outcome from the project, the app could be further developed to not only provide fingerspelling demonstrations to the user, but eventually the complete range of Auslan gestures.
+
+The short term vision for the product is to prepare an interactive GUI mockup that will give the viewer a visual and interactive understanding of what to expect from the app by its release. This will serve as a means to communicate the intentions of GS Technologies for the app to future collaborators, and if required, potential investors, funding bodies, or promotional materials used to encourage pre-orders of the app (which could help to fund the development of the app). The decision to prepare a GUI wireframe as a short term goal was made in recognition of time constraints and a limited experience in app development expressed by all members of the GS Technologies team.  While the completion of the product in its entirety seemed unattainable within the short term timeframe (six weeks), the creation of a representation of the intended final product as a GUI wireframe seemed reasonable, and would potentially serve the development of the product for reasons mentioned above.
+
+GS Technologies is currently in the process of designing the product, aesthetic and branding of the app, while also preparing reports detailing the team’s intentions, development and release plans for the product.
+
+We are in the process of designing the product, the aesthetic and the branding of the app.  We are currently wireframing the app, starting with the creation of a GUI to infer the eventual user experience.  This will serve as a progress benchmark for collaboration with future teams, potentially for funding applications or investment pitches, or depending on the marketing strategy, promotional material used to encourage pre-orders of the app (which would also help fund the development of the app).
+
+Alongside the development of the app wireframe, GS Technologies is concurrently preparing reports on the development progress of the product and the marketing and release plan? .
 
 --
 
