@@ -1,0 +1,76 @@
+ACTIVITY LOG
+
+-	Set up GitHub repository and shared with team
+-	Wrote summary of Group Progress and Communications
+-	Assessed Tools and Technologies required for App Features
+-	Updated website to reflect A3 requirements
+
+
+
+*** GROUP PROCESS AND COMMUNICATIONS ***
+
+Carrying on from our momentum in Assignment Two, the members of GS Technologies stayed in regular communication over Discord. After some scattered conversations, it was decided that a formal meeting be organised over Zoom to get everyone on the same page and working on individual tasks. The meeting was held on July 29th with all members present.
+
+Given the efficiency and success in using Discord as the primary communication tool for Assignment Two, it was decided to continue using Discord for day-to-day communication for Assignment Three. This would cover occasional updates and a platform for any member to request help if needed. Communication between members occurred almost every day over the platform.
+
+The members of GS Technologies discussed how they will each contribute to the project, and how much time they are able to put in given other commitments. The members are confident in each other’s reliability and did not anticipate any member becoming unexpectedly unresponsive.
+
+A follow-up formal meeting to check group progress and get everyone on the same page, ready for a final push to the submission deadline was scheduled for August 16th on Zoom.
+
+
+
+*** TOOLS AND TECHNOLOGIES ***
+
+# Uploading/storing/accessing text files via cloud.
+-	AWS for pre-stored files and data
+
+Built-in text files for use by the app need to be available to all users at all times. In reality, raw text files will not account for much memory usage, and it is possible that some built-in text files can be simply included with the app, rather than needing to be accessed from a cloud server.
+A much wider library of files can be hosted on a cloud server, such as books or articles. Users would be able to download certain texts directly onto their device for offline use.
+
+Individual users may want to upload their own text files. These can be stored locally, or added to the cloud server. An advantage of adding them to the cloud could be analysis of the types of texts users find useful for learning. This information could be used to choose more popular, built-in training texts.
+There may need to be a user option for storing user uploaded material on the cloud to account for potential privacy concerns.
+
+AWS provides a secure and efficient way of storing the potentially large amounts of data, as well as a platform with which to analyse the stored data. This will require account creation and subscription to the service. 
+
+# Dynamic 3D animations
+-	Unity Game engine
+-	Zbrush
+
+As the instructional “videos” will be generated on the fly depending on the combination of letters in the supplied text. Models need to be created for not only all the individual hand positions, but a smooth and realistic transition between each letter sign.
+
+Subscription to Unity and ZBrush will be required. Given these software are subscription based, there is no specific version requirement, as updates are automatically rolled out to subscribers.
+
+# Categorisation of difficulty of words/phrases
+-	Dictionary API (E.g.: WordsAPI)
+
+Certain dictionary or word bank APIs come with a variety of useful features. The particular feature of interest to JumpIntoAuslan is a ranking of the commonality of words. It would be logical to train Auslan students using more common words in the beginner stages and using infrequently used words in more advanced levels. The commonality of words tends to correlate with word difficulty as well.
+
+The use of an API may be a bulky addition to the application considering the potential for frequent requests during a session, as well as expensive when the user base increases and more requests are made to the API. Using a dictionary API may be useful in the early stages of app development and testing, but a custom, built-in solution would be suggested for the long-term.
+
+# Cloud-Based Profile Info
+-	AWS to store user data
+
+Once again, AWS can provide a safe and secure way to store user data.
+
+# Login Integration with Social Media
+-	Facebook API
+-	Google API
+-	Auth0.com is a service for adding easy and secure user login to apps. Supports 30+ social providers also.
+
+Handling user’s login information is a difficult task at the best of times. Although this particular application may not hold any information requiring high security, such as credit card information, usernames, emails and passwords should still be treated with care.
+
+Using Facebook or Google as a login option is a way to put the burden security on those companies. They are generally well respected and invest a lot of time and effort in maintaining good security practices.
+
+Auth0.com provides a secure and easily integrated solution to user login. It comes with a free plan which would be useful for early development, and a subscription model for later down the line when the user base expands. It also allows for social logins such as Google, Facebook, Twitter etc.
+
+# Voice Recognition
+-	Various text-to-speech APIs available
+
+
+All other features not listed here can be hand coded in the chosen programming language C#, with front-end handled in ReactJS.
+
+# Summary
+
+Currently, members of GS Technologies only have experience working with APIs, however not the APIs specifically required for this project.
+Some of the tools and technologies listed will not require much to implement, as the hard work is either handled by the service provider, or it comes with easy to follow documentation.
+Other tools, such as the 3D modelling and animation software, will require either bringing in a professional, or taking the time to learn the new skill. 
