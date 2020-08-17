@@ -3,7 +3,10 @@ ACTIVITY LOG
 -	Set up GitHub repository and shared with team
 -	Wrote summary of Group Progress and Communications
 -	Assessed Tools and Technologies required for App Features
--	Updated website to reflect A3 requirements
+- Updated Group Process and Communications
+-	Updated website pages to reflect A3 requirements
+- Collaborated group member's Career Plans
+- Described how the app would be tested during its development
 
 
 
