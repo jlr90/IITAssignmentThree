@@ -1,5 +1,52 @@
 Ben's notes for gitHub papertrail:
 
+	Update 18/8/2020
+
+A5 Script:
+
+Hi, I’m Ben from GS Technologies (etc).
+
+We’ve been hard at work creating a new app to assist with a specific skill used when learning Australian Sign Language, or ‘Auslan’.
+
+Auslan incorporates a whole language of gestures, and the part of the skillset that GS Technologies has been looking at specifically, is fingerspelling. 
+
+Fingerspelling is literally the hand gestures for each letter of the English alphabet. While much of Auslan has moved away from fingerspelling, replacing strings of individual letters with other gestures to communicate words or phrases, these gestures are often interspersed with fingerspelling for common abbreviations, niche vernacular, or specifics like names of people or companies.
+
+Now, we’re not interested in teaching people to fingerspell. There are plenty of resources currently available that will teach you how to sign the alphabet.  But when it comes to being able to practice interpreting Auslan fingerspelling, the online resources are either limited, or leave a lot to be desired.  For example, there are limited ranges of video resources online. These are initially helpful, but once you’ve seen them, it becomes very easy to stop ‘interpreting’, and simply remember what the person in the video was spelling out from the last time you watched it.   Video resources quickly become redundant. 
+
+What’s more, is that there simply aren’t enough of these video resources available for them to be an effective means of independently practicing fingerspelling interpretation.
+
+But, we have a solution.
+
+
+This is JumpIntoAuslan, a new browser based and device app that GS Technologies is currently wireframing.  JumpIntoAuslan will use a 3d model and procedurally generated animation of any fingerspelling gesture to any other fingerspelling gesture, and will fingerspell words and phrases from text documents that are either provided by the app, or uploaded by the user.
+
+By creating a fluid, dynamic animation that renders live as the app literally interprets text files into Auslan, there is no need to constantly release new videos in an attempt to deliver Auslan practice content. The content is generated automatically by the app as it reads and interprets text files.
+
+The app will have playback controls and difficulty settings for the user.  If the user wishes to slow the animation down, speed it up, or pause it, they will be able to do so with a few simple screen presses.  
+
+
+
+After the user has viewed a fingerspelled word or phrase, they will be able to input text to the app to verify their answers.  Users will be able to keep track of their accuracy scores and common mistakes. If a user is often misinterpreting a particular sign, the app can offer that feedback to them.
+
+Img: hard/weird jargon phrase? Give an ‘easy’, ‘medium’, ‘hard’? 
+
+Difficulty settings will be defined by the speed of the animation, the length of the words or phrases, the commonality of the words or phrases used, and the amount of times the user can view the animation before inputting their answer to check their accuracy
+
+For example, an easy difficulty might have the animation spell through a single, common, short word slowly, pausing on each letter for a moment before moving to the next, and the user will be able to rewatch the animation as many times as they’d like before inputting their interpretation of it.  A hard difficulty might quickly spell out a longer phrase from a technical journal, or from a Shakespearean play or something else that uses uncommon words or jargon, and the user would have only one or two rewatches of the animation before they must attempt to interpret it.
+
+We’re hoping that this app will capture the interest of a range of parties including
+	-Individuals who are interested in developing their Auslan skillset,
+	-Deaf and hard of hearing communities and institutions
+	-The National Disability Insurance Scheme
+	-Deaf friendly schools and educational institutions
+
+At launch we expect to release a fully functioning app that allows users to log in as a guest, or sign in using their social media accounts. Their progress and accuracy score ratings will be saved for each user’s profile so that they can jump right back to where they left off every time they log back in. Users with accounts will also be able to upload their own text files for animated interpretation.  This will also allow teachers to provide tailored text to be interpreted for classwork or for fingerspelling exams.
+
+For more information to do with development progress, timeframe, budget and release plans for the JumpIntoAuslan app, please download our business report.
+
+We are GS Technologies, thank you for watching!
+
 
 	update 10/8/2020
 
