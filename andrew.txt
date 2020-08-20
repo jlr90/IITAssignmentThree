@@ -1,3 +1,10 @@
-03/08 - created the initial wireframes for the app mockup design using Adobe Xd
-08/08 - created further wireframes for all major pages required for the app and linked them using the prototype function in Adobe Xd
-08/08 - provided embed code for John to add into the website for use by the assessor when looking at the dummy app
+App Mock-up Timeline
+03/08 - created the initial set of pages for the app mockup design using Adobe Xd
+04/08 - created the menu that sits as an overlay on all pages and links all the pages together. Completed linking all pages so that you could navigate. 
+08/08 - created further pages that will be required to properly represent how to app would function for all major pages required for the app and linked them using the prototype function. Provided embed code for John to add into the website for use by the assessor when looking at the dummy app and for the team to see progress
+13/08 - created graphics for the Main Menu page that shows the user's progress in each category. created graphics for the progress bar for the lessons. 
+14/08 - worked on completing the lesson list pages 
+17/08 - started creating the speed slider on the mock-up lesson page, linked all lesson. finished the 'Upload' page and the About page which contains an initial explanation of the IT project. This is an excerpt from the main report. Completed the library page and linked this to the lesson page.
+18/08 - started creating the 
+19/08 - worked on animating the 3D model placeholder. 
+20/08 - finalised the animations for the 3D model placeholder -- this is where the 3D model will sit when 
