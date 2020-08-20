@@ -1,5 +1,66 @@
 Ben's notes for gitHub papertrail:
 
+	20/8/2020
+	
+Updated Plans/Progress sections with references:
+
+The Story:
+
+Passionate about communication and considering a career change at the time, GS Technologies member Ben Matthews undertook an introductory Australian Sign Language (Auslan) course through Western Australian organisation Access Plus WA Deaf in mid 2019 (Auslan Sign Language Courses & Classes in Perth | Access Plus WA Deaf, 2020). A challenge was identified while learning the language. It is relatively easy to learn to finger spell the alphabet (and from there, any other word), and there are many available educational resources to teach the gestures for each letter (Starter, 2020), (Can:Do Classroom, 2016). However, while learning to fingerspell is easy to practice without assistance from others due to the availability of appropriate resources, interpreting the fast-paced fingerspelling from a fluent signer is very difficult to practice independently of others.  The educational resources that are currently available for bettering one’s ability to interpret fingerspelling are sorely limited and somewhat basic when compared to modern app technologies, especially in terms of use of graphics and animation (Signbank, 2020), (Jansen, 2020).
+
+GS Technologies proposes that a new resource could be developed to greatly benefit the Australian and New Zealand deaf communities, aspiring Auslan interpreters, and anyone who has an interest in learning Auslan (Signbank, 2020).  GS Technologies believe that a new educational app could quickly surpass the current competition in terms of educational effectiveness, usability and marketability, and suggests that it could assist Auslan students by allowing them to practice fingerspelling interpretation independently and flexibly.
+
+Current Progress: 
+
+Short, mid-term and to a lesser extent, long term goals have been defined by the GS Technologies team for the development of the JumpIntoAuslan app.  Desired functionality has been listed and detailed in the Aims and Tools and Technologies sections (above), which outlines mid-term and longer term aims.  In brevity, the mid-term goal is the creation and release of a fully functioning app that is both accessible as a standalone app to be downloaded onto devices, or via web browser. The app would serve its purposes as described in the overview, and would be delivered as per a marketing and release plan for the app. While marketing ideas have been considered, a detailed marketing and release plan is yet to be produced (Heinig, 2018). 
+
+The long-term goal would be to include functionality that is not essential for providing the intended apps purpose to users, but would be desirable, interesting or entertaining for the user, along with any updates required to address unexpected issues with the product.  Pending a successful outcome from the project, the app could be further developed to not only provide fingerspelling demonstrations to the user, but eventually the complete range of Auslan gestures.
+
+The short term vision for the product is to prepare an interactive GUI mockup that will give the viewer a visual and interactive understanding of what to expect from the app by its release. This will serve as a means to communicate the intentions of GS Technologies for the app to future collaborators, and if required, potential investors, funding bodies, or promotional materials used to encourage pre-orders of the app (which could help to fund the development of the app). The decision to prepare a GUI wireframe as a short term goal was made in recognition of time constraints and a limited experience in app development expressed by all members of the GS Technologies team.  While the completion of the product in its entirety seemed unattainable within the short term timeframe (six weeks), the creation of a representation of the intended final product as a GUI wireframe seemed reasonable, and would potentially serve the development of the product for reasons mentioned above.
+
+GS Technologies is currently in the process of designing the product, aesthetic and branding of the app, while also preparing reports detailing the team’s intentions, development and release plans for the product. The team is currently wireframing the app, starting with the creation of a GUI to infer the eventual user experience.  This will serve as a progress benchmark for collaboration with future teams, potentially for funding applications or investment pitches, or depending on the marketing strategy, promotional material used to encourage pre-orders of the app (which would also help fund the development of the app). 
+
+
+Roles
+The process of assigning tasks to team members for the development of this project was organic in nature.  An online meeting via Zoom was held to discuss the needs of the project.  
+Clearly identified roles were loosely prescribed at that time, but without follow up affirmation or clear minute-taking during the meeting, clarity of these assignments became hazed. This did not impede progress in any significant way, as GS Technologies members typically take initiative and communicate well.  Team members were able to check in with each other regularly to see what else needed to be achieved for the project, and would take it upon themselves to do so.  A clear exception to this process is the very clearly defined UI/UX designer role, taken by Andrew Moroney who has diligently prepared the app interface mockup, and the role of marketing director which was taken by Ben Matthews who has prepared a presentation based upon the information of this report.  Throughout the project, these roles were taken on by the remaining GS Technologies members as the project required, and were assigned or taken on based on skill sets, experience and/or the interests of each member.
+
+Tech Researcher
+Administration Assistant 
+Marketing and Media Director
+Web Developer
+Project Manager
+
+Scope and Limits
+The scope of the JumpIntoAuslan project was deeply considered. The GS Technologies team followed the advice of Business and Self Help author Stephen Covey by ‘beginning with the end in mind’ (Covey, 1989). Initially, an ‘all-bells-and-whistles’ final product was conceptualised - An app that could assist people with not only fingerspelling, but with learning the entire language of Auslan, that came with detailed marketing and delivery strategies, ethical data collection to further benefit marketing campaigns, and a range of functionality that intended to be entertaining and desirable to the user, or to Auslan teachers.  In recognition of the group’s skill limitations and time constraints, humbler milestones were defined.  Our current goal is to provide a business proposal that includes:
+
+A clear outline of the essential functionality of the app that is required in order to deliver the intended service (assisting users with fingerspelling interpretation), with considerations of marketing and release strategies, and the target market for the app.
+
+A GUI prototype to give interested parties an intuitive insight into the intended style, feel and functionality of the app
+
+A rough estimated timeline for developing the project beyond the prototype and proposal stage, listing the additional desirable functionality to be updated with future patches after release
+
+An estimated budget and list of resources required to complete the project.
+
+References:
+
+Access Plus WA Deaf. 2020. Auslan Sign Language Courses & Classes In Perth | Access Plus WA Deaf. [online] Available at: <https://accessplus.org.au/auslan-classes/> [Accessed 20 August 2020].
+
+Starter, T., 2020. AU Search Avatar Image 1:06 0:37 / 3:24 Learn Auslan: Fingerspelling The Alphabet. [online] Youtube. Available at: <https://www.youtube.com/watch?v=AFP4a3foXLA> [Accessed 20 August 2020].
+
+Can:Do Classroom, 2016. Fingerspelling A-Z Auslan. [online] Youtube. Available at: <https://www.youtube.com/watch?v=rV1KfQlRAds> [Accessed 20 August 2020].
+
+Auslan.org.au. 2020. Signbank. [online] Available at: <http://www.auslan.org.au/spell/practice.html> [Accessed 20 August 2020].
+
+Jansen, M., 2020. The Best Android Games Currently Available (August 2020) | Digital Trends. [online] Digital Trends. Available at: <https://www.digitaltrends.com/mobile/best-android-games/> [Accessed 20 August 2020].
+
+Auslan.org.au. 2020. Signbank. [online] Available at: <http://www.auslan.org.au/spell/practice.html> [Accessed 20 August 2020].
+
+Heinig, I., 2018. 10 Steps To A Winning Pre-Launch App Marketing Strategy | The Manifest. [online] Themanifest.com. Available at: <https://themanifest.com/mobile-apps/10-steps-winning-pre-launch-app-marketing-strategy> [Accessed 20 August 2020].
+
+Covey, S., 1989. The Seven Habits Of Highly Effective People. New York: Simon & Schuster.
+
+
 	Update 18/8/2020
 
 A5 Script:
