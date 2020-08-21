@@ -1,0 +1,244 @@
+Aims:
+
+Aim 
+
+The aim of JumpIntoAuslan is simple - to create the best and most comprehensive learning tool for Auslan fingerspelling. The outcome will result in this app being implemented in special schools across the country, with the option for the general public to access the learning materials also. The backbone of the app will be the ability to read user text uploads, and output the readings as strung together fingerspelling signs. There are  several key goals that must be met along the way to ensure the project gets off the ground. These include studying the competition, designing the aesthetic and user experience, recording the sign movements, creating the 3d model, coding the app, deploying a beta, deploying release candidates, and then finally, improving and expanding the stable app. 
+
+
+Studying the competition
+
+This stage is the lift off point for JumpIntoAuslan. This goal, once completed, will enable the development team to identify each aspect that the competition does and does not do well. The findings from this stage of the project will solidify the distinctions between JumpIntoAuslan and the rest, which can be built upon to create an end product that is useful, intuitive and practical to the end user. The team will adopt the aspects which the competition does well and expand the aspects that set JumpIntoAuslan apart. This is where the features and benefits of our project will be realised, which will aid in everything from development to marketing. 
+
+Designing the aesthetic and U/X
+
+This stage of the project will produce the wireframe which the rest of the app will be built upon. It will focus on the user experience and the user interface, producing a mockup of the real app, which can be viewed on the user device.The tools which will be used to produce the wireframe is Adobe XD. This stage is critical as it realises what the end application will look like and how the app behaves and feels.This then provides an end goal for the app engineers to build towards. 
+
+Recording the SignMovements
+
+This stage is information gathering. The “content” of the project is the 3d modelling of Auslan fingerspelling signs , so we need to create a bank of the signs that can be accessed when creating the 3d model. A simple recording of the hands as the signs are performed is all that is needed. 
+
+
+Creating the 3D model
+
+This step will take what is recorded from the Recording step, and then digitise and animate the recordings, so they can be shown on the app. The reason why it will be a 3d model instead of strung together real life recordings, is that one of the shortfalls identified in the competitor research is that in using pre recorded signs, the transition from one sign to another is lost, and therefore the lifelike training and realism is also lost. This step will be performed in the open source 3d creation environment , Blender (specifically Blender v2.83.3) and then exported to the game engine Unity for rendering.
+
+
+Coding the app
+This step involves taking the wireframe that was created and building a functional app around it.  The core function of reading user uploaded text files and outputting as the 3d rendering would be coded in this step. Without this step there is no project.
+
+
+Deploying a beta and deploying release candidates. 
+
+These two steps have been combined, as they perform nearly the same function - deploying the app into the real world, and working on eradicating bugs that pop up - just on different scales. The beta will be deployed to a select number of testers - designed to find any bugs that are unknown to the developers. The developer will then work on the bugs to produce a more polished version. Once the development team agrees that there will be no new code to be implemented - only code to work on - the project will enter the release candidate stage. This stage will have all features and functions ready to deploy, with no known critical bugs, while most of the work will be done to improve periphery source code. 
+
+
+Improving and expanding stable app.
+
+Once the release candidate is finalised and released, ongoing support to the app would be provided. One key aspect is improvement of the 3d rendering. If proven successful and uptake of the app is as expected, research and redevelopment of the 3d model will be undertaken. This will be in the software ZTouch, which can provide life like modelling to further aid in the realism of the app. Another way that has been earmarked as a potential future feature to improve the app would be expansion from fingerspelling to whole words, and from Auslan (Australian Sign Language) to other Sign languages such as ASL (American Sign Language) .
+
+
+
+
+
+
+What the app will do
+
+Logging in
+
+Upon booting the app, the user will be prompted to sign in with either an email, or a facebook, google, or appleID account. Alternatively, the user can continue as a guest, but will not have access to the full features of the app. The facebook, google and apple ID account login will enable better use of targeted facebook ads, while the email sign in will be available so as not to force users who don’t already have one, to create one of the former accounts. Using the facebook/google/appleID account details will increase the efficacy of the marketing campaign as “you can reach the relevant audience for your needs. You can also provide a more positive experience by showing ads only to people who are likely to be interested in them” (By App Activity - Facebook App Ads - Documentation - Facebook for Developers, 2020). The app will use the various Mobile Advertiser ID’s in order to target it’s ads effectively. Below is taken directly from the “Facebook for Developers” section of facebook. 
+(By Mobile Advertiser IDs - Facebook App Ads - Documentation - Facebook for Developers, 2020)
+An example of using the mobile advertising ID’s would be sending ads to friends of the user. Or perhaps if a correlation between users and being in specific groups for example Aussie Deaf Kids, is detected, sending ads to non users in those specific groups. 
+
+
+
+A secondary reason for encouraging the user to use a google/facebook/apple login, is one of security. If users are using those accounts to sign in, then their data should theoretically be much more secured. This is for the simple reason that the behemoths which are apple, google, and facebook, have tried and tested security protocols in place to protect their users. 
+
+If using an email to sign in, in order to store an individual’s data -  such as name, previous results, and uploaded files - the user will need to have a unique email address and as such, some users may need to create an email account to access the full app. It must be said that the team only expects this to be an issue for younger students. To combat this potential problem, a school can be given a main account, from which unlimited numbers of sub accounts can be created. 
+Regarding targeted advertising using Email addresses, Facebook offers an option of loading a target customer list to cross reference with their users. 
+
+The privacy of data is paramount for the team at GS technologies, and as such, no personal data besides Basic account information will be kept on the server side of the app. Moreover, the policy of GS Technologies is to never sell or use the data of users unethically.
+If the users do create an account and store a password within the app, the use of Hashing and Salt will be used, as this offers the best protection against data breaches (Arias, 2020) 
+
+
+
+
+
+
+Walkthrough and functions
+
+Once the user is logged in, a quick interactive runthrough of how the app works will commence. This will familiarise the user with the Home Screen - where the user can see past test results, upload text files, edit personal info, view their library, and choose which text to translate into Auslan Fingerspelling. If the user has not uploaded or chosen text files to be translated, the app will provide translation of text provided by the app based on the selected difficulty of the user. The use of an interactive walkthrough, where user input moves the walkthrough along, has been chosen as “interactive walkthroughs are the new-age help manuals for the proactive and action-oriented users, who want to learn an app on their own and in the fastest way possible” (Nagpal, 2020). This process will also act as a user-setup function, where names, ages, current level of knowledge and difficulty settings will be stored. It will show users how to upload texts and show them how to access their library.
+
+The first core function that will be shown to the user is Flash Card Mode. This will show a fingerspelled animation of a single letter and then prompt the user to enter which letter they think the sign represents. This is done one sign at a time and is the very beginner mode of the app aimed at users who have a very shallow depth of knowledge in Auslan. It is important that the app does not simply cater to people looking to extend or sharpen their skills in interpreting Auslan, but also to very beginners. The implementation of this  mode was decided on as “If you’re working with children, flash cards are an ideal way of stimulating them and making them interested in vocabulary in an engaging way (Benefits of Flash Cards for Language Learning., 2020). 
+
+The user’s library will be preloaded with a few texts that the user will be prompted to select. When selected, the learning tool starts and the user will be introduced to the 3D model that will perform the signs and the speed slider- which adjusts the speed in which the signs are performed. 
+
+When the walkthrough finishes, it will show the user where to access it again if needed. If the user does in fact need a refresher course, the walkthrough will be broken down into sections which can be chosen, so the entire process does not need to be completed again.
+
+
+After finishing the walkthrough all the set up elements of the app would have been completed. The user is presented with a home screen from which they can navigate the app. If the user is a “guest” (not signed in through a unique account), there will be limitations in the app. Full users will be able to store their own library and test results, whereas guests will only have access to the pre loaded texts, and while they can partake in Tests, previous results are not stored. All data, including storage of user information and a database of users will be hosted by Amazon Web Services. 
+
+Timeframe
+
+
+Week
+Task
+Week 1 
+Each member will conduct research on competitors. Record what works and what doesn’t
+Week 2 
+A list of the application’s features to be collated. Features will be attainable and reasonable for an initial release. Prototyping tools will be decided upon.
+Week 3
+The Front End developers will start to design the U/I and U/X. 
+Tech researchers will compile a list of technologies that will be required to build the application - focussing on the front end.
+Marketing and Media Manager will start to develop a presentation for potential investors. 
+Each member will start to contribute to the report of the project. 
+Week 4
+U/I and U/X will continue to be designed by the Front End Developers. 
+Tech researchers will compile a list of technologies that will be required to build the application focussing on the back-end.
+Web developers will start to produce the website for the project. 
+All members will meet to show progress of respective roles.
+A recording of each sign for the 3d modelling will be taken.
+
+
+
+Week 5
+UI/UX wireframe prototype will be complete. Front end development will shift to the 3d modelling. 
+Back end development will setup hosting and database services through AWS
+Media and marketing presentation will be complete
+Full report will be finalised. 
+Week 6
+Back end developers will start to build the mobile application from the UI/UX that was produced while the Front end developers will continue to build the 3d models for each sign. 
+Web developers will finish a polished website which includes the report and presentation from the media manager. 
+
+
+Week 7
+Front End developers will finish the 3d modelling and shift to the animation. 
+Backend developers will continue to build the mobile application. 
+Web developers will build the web app. 
+
+
+Week 8
+Admin assistant will compile potential government grants.
+Media and Marketing manager will compile potential investors. 
+Front, back, and web developers are all working on producing the app
+
+
+Week 9
+3d animation expected to be completed.
+Front end and back end developers will work together to port 3d animations to a working shell of the app. 
+
+
+Week 10 
+User acceptance testing (UAT). Key demographic will test the usability of the app.  Suggestions and general thoughts will be recorded.
+ 
+Week 11
+Based on the UAT, redesigns and optimisation will commence
+App alpha phase will be complete. 
+Week 12
+Compatibility testing – running the app on different devices and screen sizes.
+Project manager will submit the app to the relative stores for beta testing.
+
+
+Week 13
+Beta testing - This time users will test the app itself. Any bugs or user experience issues will be corrected.
+Week 14
+Debugging and optimisation. 
+Week 15
+Finished app. Will be submitted to the Google and Apple app stores
+
+Risks
+
+Several risks have been identified by the team at GS Technologies regarding the JumpIntoAuslan app. 
+
+Unity engine and browser capability:
+Originally, JumpIntoAuslan was meant to be a web app, as well as a mobile app, however, Unity - the engine that is used for rendering the animations of the signs - is not currently supported in browsers. Currently the engine will perform properly in a browser, but the user must download the Unity Web Player plugin in order for the engine to run. This may be a stumbling block for new users as according to SalesForce, consumers in today’s environment have greater expectations when it comes to products and businesses (What Are Customer Expectations (and How Have They Changed)?, 2020). The team will commence testing of the updated Unity 5, which will support browser rendering, once it is available.
+
+Underestimation of time and skills required: 
+Optimism bias (thinking that everything will go perfectly), and the Planning Fallacy (the tendency to underestimate time required to complete a task) are two potential risks. Usually, these are the reasons for projects not being completed on time (Why We're Bad at Estimating Time (and What to Do About It), 2020). Building the JumpIntoAuslan app requires extensive knowledge of programming and specific software that is pivotal in productions. Currently, the team is light on knowledge. This may lead to an underestimation in the technicalities, and time required to learn the skills. For example, the team does not currently have any experience in 3d modelling or animation. This may result in a lengthy and steep learning curve. There are several negative outcomes from this; due to time constraints the end result is not polished and unattractive to the user; or the team has to hire a 3d modeller and animation consultant and as such, the costs will be higher than expected; or the expected release will get postponed. 
+
+Competitors
+Currently, there are no competitors that boast the same entire functionality of JumpIntoAuslan, however, there are a few competitors that offer a portion of what we will offer. Auslan.org.au app provides still images of the gestures for fingerspelled alphabet in succession to spell out text (Signbank, 2020). This provides a basic means to practice reading static images of fingerspelling. If they wanted to upgrade their services, they would be in a much more advantageous position than JumpIntoAuslan. They would already have a user base, and the fact that they are the first result from a Google search of “Auslan” means that they would attract new users easily. 
+Critical tech goes down
+There is always the possibility that 1 or more of the technologies or tools that the app relies on will become defunct, or no longer be compatible with the rest. Since the app will be on a fairly consistent update cycle, research will  also be consistent. This will enable new, viable tech to be flagged as an option. If the research suggests that the app will perform better, work will commence to integrate it. Because of this, the app should always be ahead of any tech that will become obsolete. (How Often Should You Update Your App?, 2020)
+
+No buy in from Schools/government
+The largest risk to the team at GS Technologies is that the relevant state education departments do not want to add JumpIntoAuslan to their state curriculums. Private school curriculum will still be an option, however for cash flow purposes, having one large win early is optimal. On the extreme chance that there are not enough users in Australia, focus will have to shift to overseas markets. In this event, a new 3d animation will have to be made in the relevant language, as fingerspelling, and sign languages overall are not universal (The Fingerspelled Alphabet in 10 Different Sign Languages, 2020).
+
+References: 
+
+Auslan.org.au. 2020. Signbank. [online] Available at: <http://www.auslan.org.au/spell/practice.html> [Accessed 20 August 2020].Savvy Apps. 2020. 
+
+How Often Should You Update Your App?. [online] Available at: <https://savvyapps.com/blog/how-often-should-you-update-your-app> [Accessed 17 August 2020].
+
+Access Plus WA Deaf. 2020. Auslan Sign Language Courses & Classes In Perth | Access Plus WA Deaf. [online] Available at: <https://accessplus.org.au/auslan-classes/> [Accessed 20 August 2020].
+
+Starter, T., 2020. AU Search Avatar Image 1:06 0:37 / 3:24 Learn Auslan: Fingerspelling The Alphabet. [online] Youtube. Available at: <https://www.youtube.com/watch?v=AFP4a3foXLA> [Accessed 20 August 2020].
+
+Can:Do Classroom, 2016. Fingerspelling A-Z Auslan. [online] Youtube. Available at: <https://www.youtube.com/watch?v=rV1KfQlRAds> [Accessed 20 August 2020].
+
+Auslan.org.au. 2020. Signbank. [online] Available at: <http://www.auslan.org.au/spell/practice.html> [Accessed 20 August 2020].
+
+Jansen, M., 2020. The Best Android Games Currently Available (August 2020) | Digital Trends. [online] Digital Trends. Available at: <https://www.digitaltrends.com/mobile/best-android-games/> [Accessed 20 August 2020].
+
+Auslan.org.au. 2020. Signbank. [online] Available at: <http://www.auslan.org.au/spell/practice.html> [Accessed 20 August 2020].
+
+Heinig, I., 2018. 10 Steps To A Winning Pre-Launch App Marketing Strategy | The Manifest. [online] Themanifest.com. Available at: <https://themanifest.com/mobile-apps/10-steps-winning-pre-launch-app-marketing-strategy> [Accessed 20 August 2020].
+
+Covey, S., 1989. The Seven Habits Of Highly Effective People. New York: Simon & Schuster.
+
+Access Plus WA Deaf. 2020. Auslan Sign Language Courses & Classes In Perth | Access Plus WA Deaf. [online] Available at: <https://accessplus.org.au/auslan-classes/> [Accessed 20 August 2020].
+
+Starter, T., 2020. AU Search Avatar Image 1:06 0:37 / 3:24 Learn Auslan: Fingerspelling The Alphabet. [online] Youtube. Available at: <https://www.youtube.com/watch?v=AFP4a3foXLA> [Accessed 20 August 2020].
+
+Can:Do Classroom, 2016. Fingerspelling A-Z Auslan. [online] Youtube. Available at: <https://www.youtube.com/watch?v=rV1KfQlRAds> [Accessed 20 August 2020].
+
+Auslan.org.au. 2020. Signbank. [online] Available at: <http://www.auslan.org.au/spell/practice.html> [Accessed 20 August 2020].
+
+Jansen, M., 2020. The Best Android Games Currently Available (August 2020) | Digital Trends. [online] Digital Trends. Available at: <https://www.digitaltrends.com/mobile/best-android-games/> [Accessed 20 August 2020].
+
+Auslan.org.au. 2020. Signbank. [online] Available at: <http://www.auslan.org.au/spell/practice.html> [Accessed 20 August 2020].
+
+Heinig, I., 2018. 10 Steps To A Winning Pre-Launch App Marketing Strategy | The Manifest. [online] Themanifest.com. Available at: <https://themanifest.com/mobile-apps/10-steps-winning-pre-launch-app-marketing-strategy> [Accessed 20 August 2020].
+
+Covey, S., 1989. The Seven Habits Of Highly Effective People. New York: Simon & Schuster.
+
+Developers.facebook.com. 2020. By App Activity - Facebook App Ads - Documentation - Facebook For Developers. [online] Available at: <https://developers.facebook.com/docs/app-ads/targeting/by-app-activity/> [Accessed 8 August 2020].
+
+Nagpal, R., 2020. Why You Need Interactive Walkthroughs For Your Application. [online] Nagarro.com. Available at: <https://www.nagarro.com/en/blog/application-interactive-walkthroughs> [Accessed 8 August 2020].
+
+Drmoku.com. 2020. Benefits Of Flash Cards For Language Learning.. [online] Available at: <https://drmoku.com/benefits-of-flash-cards-for-language-learning/> [Accessed 8 August 2020].
+
+Developers.facebook.com. 2020. By Mobile Advertiser Ids - Facebook App Ads - Documentation - Facebook For Developers. [online] Available at: <https://developers.facebook.com/docs/app-ads/targeting/mobile-advertiser-ids/> [Accessed 9 August 2020].
+
+Medium. 2020. Deploy Your First Web App Using AWS S3, EC2, And RDS. [online] Available at: <https://medium.com/datadriveninvestor/deploy-your-first-web-app-using-aws-s3-ec2-and-rds-4dd165d77b4f> [Accessed 9 August 2020].
+
+C++, B., 2020. AWS SDK For C++. [online] Amazon Web Services, Inc. Available at: <https://aws.amazon.com/sdk-for-cpp/> [Accessed 9 August 2020].
+
+Amazon Web Services, Inc. 2020. AWS Toolkit For Visual Studio Code. [online] Available at: <https://aws.amazon.com/visualstudiocode/> [Accessed 9 August 2020].
+
+Technologies, U., 2020. Scripting In Unity For Experienced C# & C++ Programmers | Unity. [online] Unity. Available at: <https://unity.com/how-to/programming-unity> [Accessed 9 August 2020].
+
+Docs.aws.amazon.com. 2020. Set Up The .NET Development Environment - AWS SDK For .NET. [online] Available at: <https://docs.aws.amazon.com/sdk-for-net/v3/developer-guide/net-dg-dev-env.html> [Accessed 9 August 2020].
+
+Medium. 2020. C# Development With Visual Studio Code. [online] Available at: <https://medium.com/edgefund/c-development-with-visual-studio-code-b860cc71a5ec> [Accessed 13 August 2020].
+
+Unity. 2020. Learning C# And Coding In Unity For Beginners - Unity. [online] Available at: <https://unity3d.com/learning-c-sharp-in-unity-for-beginners> [Accessed 12 July 2020].
+
+Cohen, D. and Cohen, D., 2020. How Facebook Integrated With The Unity Game Engine. [online] Adweek.com. Available at: <https://www.adweek.com/digital/unity-sdk-out-of-beta/> [Accessed 12 July 2020].
+
+Digital Arts. 2020. How To Use Blender For 3D Modelling. [online] Available at: <https://www.digitalartsonline.co.uk/features/creative-software/how-learn-3d-modelling-in-blender/> [Accessed 13 August 2020].
+
+Arias, D., 2020. Adding Salt To Hashing: A Better Way To Store Passwords. [online] Auth0 - Blog. Available at: <https://auth0.com/blog/adding-salt-to-hashing-a-better-way-to-store-passwords/> [Accessed 14 August 2020].
+
+"Save on storage costs using Amazon S3", Amazon Web Services, Inc., 2020. [Online]. Available: https://aws.amazon.com/s3/cost-optimization/. [Accessed: 15- Aug- 2020].
+
+"Amazon S3 Access Points - Amazon Web Services", Amazon Web Services, Inc., 2020. [Online]. Available: https://aws.amazon.com/s3/features/access-points/?nc=sn&loc=2&dn=1. [Accessed: 15- Aug- 2020].
+
+"Universal login - SSO between multiple apps - Auth0", Auth0, 2020. [Online]. Available: https://auth0.com/universal-login/. [Accessed: 15- Aug- 2020].
+
+"Top 6 Best Dictionary APIs (for Developers in 2020) [38+ Reviewed]", The Last Call - RapidAPI Blog, 2020. [Online]. Available: https://rapidapi.com/blog/dictionary-apis/. [Accessed: 15- Aug- 2020].
+
+"Speech-to-Text: Automatic Speech Recognition  |  Google Cloud", Google Cloud, 2020. [Online]. Available: https://cloud.google.com/speech-to-text. [Accessed: 15- Aug- 2020].
+
+"Getting started with Amazon Redshift Spectrum - Amazon Redshift", Docs.aws.amazon.com, 2020. [Online]. Available: https://docs.aws.amazon.com/redshift/latest/dg/c-getting-started-using-spectrum.html. [Accessed: 15- Aug- 2020].
+
+
