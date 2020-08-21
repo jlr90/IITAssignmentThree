@@ -1,12 +1,14 @@
-ACTIVITY LOG
+* ACTIVITY LOG *
 
 -	Set up GitHub repository and shared with team
 -	Wrote summary of Group Progress and Communications
 -	Assessed Tools and Technologies required for App Features
 - Updated Group Process and Communications
 -	Updated website pages to reflect A3 requirements
-- Collaborated group member's Career Plans
+- Updated Career Plans
 - Described how the app would be tested during its development
+- Updated group reflection
+- Commented on how the GitHub audit trail reflects our work
 
 
 
@@ -77,3 +79,11 @@ All other features not listed here can be hand coded in the chosen programming l
 Currently, members of GS Technologies only have experience working with APIs, however not the APIs specifically required for this project.
 Some of the tools and technologies listed will not require much to implement, as the hard work is either handled by the service provider, or it comes with easy to follow documentation.
 Other tools, such as the 3D modelling and animation software, will require either bringing in a professional, or taking the time to learn the new skill. 
+
+
+
+*** AUDIT TRAIL ***
+
+We do not consider the GitHub repository for Assignment Three to be an accurate reflection of our individual efforts during this assignment. In the repository, some name.txt files were created with the intention of being used as a paper trail of our contributions, however they were not diligently updated.
+
+GitHub is a great tool for version control, so if we were collectively coding different parts of the app or working on the website, it would be fantastic. As with Assignment Two, sharing and pinning Google Docs in our GS Technologies Discord Channel was the method we defaulted to for sharing our content. In addition to some tasks being difficult to log on GitHub, such as the creation of the JumpIntoAuslan application mock-up with Adobe XD, we found it an unnecessary extra step to upload completed content to GitHub.
