@@ -5,6 +5,8 @@ App Mock-up Timeline
 13/08 - created graphics for the Main Menu page that shows the user's progress in each category. created graphics for the progress bar for the lessons. 
 14/08 - worked on completing the lesson list pages 
 17/08 - started creating the speed slider on the mock-up lesson page, linked all lesson. finished the 'Upload' page and the About page which contains an initial explanation of the IT project. This is an excerpt from the main report. Completed the library page and linked this to the lesson page.
-18/08 - started creating the 
-19/08 - worked on animating the 3D model placeholder. 
-20/08 - finalised the animations for the 3D model placeholder -- this is where the 3D model will sit when 
+18/08 - continued work on creating the speed slider which took a lot of research and learning as this was the first time using Xd. 
+19/08 - finished the speed slider and worked on animating the 3D model placeholder. 
+20/08 - finalised the animations for the 3D model placeholder -- this is where the 3D model would sit on the final product. 
+21/08 - finalised all items and tested to ensure all links and Xd animations were working as intended. 
+22/08 - completed my Group Reflection and Career writings and submitted to the group for their collation.  
